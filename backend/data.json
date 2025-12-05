@@ -1,0 +1,391 @@
+{
+  "nodes": [
+    {
+      "id": "Employee_1",
+      "group": "Sales",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_2",
+      "group": "Sales",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_3",
+      "group": "Sales",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_4",
+      "group": "Sales",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_5",
+      "group": "Product",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_6",
+      "group": "Engineering",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_7",
+      "group": "Product",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_8",
+      "group": "Legal",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_9",
+      "group": "Legal",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_10",
+      "group": "Legal",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_11",
+      "group": "Legal",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_12",
+      "group": "Product",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_13",
+      "group": "Product",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_14",
+      "group": "Sales",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_15",
+      "group": "Engineering",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_16",
+      "group": "Sales",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_17",
+      "group": "Legal",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_18",
+      "group": "Legal",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_19",
+      "group": "Sales",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_20",
+      "group": "Product",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_21",
+      "group": "Management",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_22",
+      "group": "Sales",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_23",
+      "group": "Sales",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_24",
+      "group": "Engineering",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_25",
+      "group": "Product",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_26",
+      "group": "Legal",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_27",
+      "group": "Sales",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_28",
+      "group": "Engineering",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_29",
+      "group": "Engineering",
+      "type": "Person"
+    },
+    {
+      "id": "Employee_30",
+      "group": "Sales",
+      "type": "Person"
+    },
+    {
+      "id": "Project Alpha",
+      "group": "Project",
+      "type": "Project"
+    },
+    {
+      "id": "Project Titan",
+      "group": "Project",
+      "type": "Project"
+    },
+    {
+      "id": "Project Apollo",
+      "group": "Project",
+      "type": "Project"
+    },
+    {
+      "id": "Project X",
+      "group": "Project",
+      "type": "Project"
+    },
+    {
+      "id": "NDA_Agreement",
+      "group": "Document",
+      "type": "Document"
+    },
+    {
+      "id": "Remote_Work_Policy",
+      "group": "Document",
+      "type": "Document"
+    },
+    {
+      "id": "Q4_Financials",
+      "group": "Document",
+      "type": "Document"
+    },
+    {
+      "id": "API_Spec_v2",
+      "group": "Document",
+      "type": "Document"
+    }
+  ],
+  "links": [
+    {
+      "source": "Employee_1",
+      "target": "Project Apollo",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_2",
+      "target": "Project X",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_3",
+      "target": "Project Apollo",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_4",
+      "target": "Project Apollo",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_5",
+      "target": "Project X",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_1",
+      "target": "Employee_5",
+      "value": "manages"
+    },
+    {
+      "source": "Employee_6",
+      "target": "Project Titan",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_1",
+      "target": "Employee_6",
+      "value": "manages"
+    },
+    {
+      "source": "Employee_7",
+      "target": "Project X",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_8",
+      "target": "Project X",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_9",
+      "target": "Project Alpha",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_1",
+      "target": "Employee_9",
+      "value": "manages"
+    },
+    {
+      "source": "Employee_10",
+      "target": "Project Apollo",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_11",
+      "target": "Project Apollo",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_12",
+      "target": "Project Titan",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_13",
+      "target": "Project Apollo",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_14",
+      "target": "Project Alpha",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_15",
+      "target": "Project Titan",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_16",
+      "target": "Project Titan",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_17",
+      "target": "Project Titan",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_1",
+      "target": "Employee_17",
+      "value": "manages"
+    },
+    {
+      "source": "Employee_18",
+      "target": "Project Apollo",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_19",
+      "target": "Project Apollo",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_20",
+      "target": "Project Apollo",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_1",
+      "target": "Employee_20",
+      "value": "manages"
+    },
+    {
+      "source": "Employee_21",
+      "target": "Project Apollo",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_22",
+      "target": "Project Titan",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_23",
+      "target": "Project Titan",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_24",
+      "target": "Project X",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_1",
+      "target": "Employee_24",
+      "value": "manages"
+    },
+    {
+      "source": "Employee_25",
+      "target": "Project Alpha",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_26",
+      "target": "Project Apollo",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_27",
+      "target": "Project Alpha",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_28",
+      "target": "Project Alpha",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_1",
+      "target": "Employee_28",
+      "value": "manages"
+    },
+    {
+      "source": "Employee_29",
+      "target": "Project Alpha",
+      "value": "works_on"
+    },
+    {
+      "source": "Employee_30",
+      "target": "Project Alpha",
+      "value": "works_on"
+    },
+    {
+      "source": "Project Titan",
+      "target": "NDA_Agreement",
+      "value": "requires_signed"
+    },
+    {
+      "source": "Employee_1",
+      "target": "NDA_Agreement",
+      "value": "has_signed"
+    }
+  ]
+}
