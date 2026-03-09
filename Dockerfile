@@ -1,3 +1,4 @@
+ARG CACHEBUST=99
 # Build frontend
 FROM node:18-alpine AS frontend-build
 WORKDIR /app
